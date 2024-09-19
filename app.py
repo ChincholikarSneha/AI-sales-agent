@@ -49,7 +49,7 @@ def answers(questions, formatted_data):
 def main():
     st.title("AI Sales Agent")
     
-    url = st.text_input("Enter the product website URL", "https://www.tp-link.com/in/home-networking/smart-plug/hs100/")
+    url = st.text_input("Enter the product website URL")
     
     uploaded_file = st.file_uploader("Upload the questions text file", type="txt",key="uploaded_file")
     
